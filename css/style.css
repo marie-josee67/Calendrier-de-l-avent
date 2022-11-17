@@ -4,19 +4,23 @@
     box-sizing:border-box;
     font-family: "raleway dots";
 }
+
 #container{
     display: flex;/* élément côte à côte */
     min-height: 100vh; /* prendre toute la hauteur du viewport (fenêtre) */
     justify-content: center;/* alignement horizontal*/
     align-items: center;/*alignement verticale*/
     color: aliceblue;
+    background: rgb(115, 15, 15);
 }
+
 #calendar{
     display: flex;
     gap: 5px; /* écart entre les cards */
     flex-wrap: wrap; /* permet un retour à la ligne des cards si la largeur de l'écran est réduite */
     max-width: 925px; /* car 6cases x 150px=900px  plus l'ecart entre les casses de 5x5=25px */
 }
+
 .Card1{
     display: flex;
     height: 150px;
@@ -26,6 +30,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .Card2{
     display: flex;
     height: 150px;
@@ -35,6 +40,7 @@
     align-items: center;
     background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%);
 }
+
 .Card3{
     display: flex;
     height: 150px;
@@ -44,6 +50,7 @@
     align-items: center;
     background: linear-gradient(to right,#c02425, #0fa50f);
 }
+
 .Card4{
     display: flex;
     height: 150px;
@@ -53,6 +60,7 @@
     align-items: center;
     background: linear-gradient(to right, #0fa50f,#c02425);
 }
+
 .Card5{
     display: flex;
     height: 150px;
@@ -60,185 +68,16 @@
     overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%);
-}
-.Card6{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
     background: linear-gradient(to left top,#850161,#c02425, #207428, #91c21f, #c02425, #850161);
 }
-.Card7{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%,#850161  80%);
-}
-.Card8{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%);
-}
-.Card9{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right,#c02425, #0fa50f);
-}
-.Card10{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #0fa50f,#c02425);
-}
-.Card11{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%);
-}
-.Card12{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to left top,#850161,#c02425, #207428, #91c21f, #c02425, #850161);
-}
-.Card13{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%,#850161  80%);
-}
-.Card14{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%);
-}
-.Card15{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right,#c02425, #0fa50f);
-}
-.Card16{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #0fa50f,#c02425);
-}
-.Card17{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%);
-}
-.Card18{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to left top,#850161,#c02425, #207428, #91c21f, #c02425, #850161);
-}
-.Card19{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%,#850161  80%);
-}
-.Card20{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%);
-}
-.Card21{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right,#c02425, #0fa50f);
-}
-.Card22{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #0fa50f,#c02425);
-}
-.Card23{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle at 70% 150%,#ccac00 30%, #c02425 60%);
-}
-.Card24{
-    display: flex;
-    height: 150px;
-    width: 150px;
-    overflow: hidden;/* permet de masquer tout ce qui "déborde" de la carte */
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to left top,#850161,#c02425, #207428, #91c21f, #c02425, #850161);
-}
+
 .Numero{
     display: flex;
     position: absolute;
     font-size:  100px;
     opacity: 1;
 }
+
 .Image{
     display: flex;
     width:100%;
@@ -248,6 +87,7 @@
     transition: 1s;
     position: relative;
 }
+
 .Image:hover{
     opacity: 1;
     transition: 1s;
