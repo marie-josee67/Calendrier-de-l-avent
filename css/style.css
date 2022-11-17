@@ -83,12 +83,14 @@
     width:100%;
     height: 100%;
     object-fit: cover;/*La propriété CSS object-fitdéfinit la façon dont le contenu d'un élément remplacé ( <img>ou <video>par exemple) doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur.*/
-    opacity: 0;
+    opacity: 0; /* image invisible au premier abord */
     transition: 1s;
+    justify-content: center;
+    image-rendering:auto; /*image redimensionner automatiquement  */
     position: relative;
 }
 
 .Image:hover{
-    opacity: 1;
+    opacity: 1; /*  image visible quand la souris la survole */
     transition: 1s;
 }
